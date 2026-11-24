@@ -124,24 +124,63 @@
 # print("평균은",avg,"이고",name[3],"가 가장 점수가 높습니다")
 
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-list0 = []
-print(list0)
-print()
+# list0 = []
+# print(list0)
+# print()
 
-print("Q1. append 함수를 사용해 list0에 1,2,3,4,5 6,7,8,9를 차례로 추가하시오(반복문을 사용해도 좋디)")
-list0.append(1)
-print(list0)
-list0.append(2)
-print(list0)
-list0.append(3)
-print(list0)
-list0.append(4)
-print(list0)
-list0.append(5)
-print(list0)
-list0.append(6)
-print(list0)
-list0.append(7)
+# print("Q1. append 함수를 사용해 list0에 1,2,3,4,5 6,7,8,9를 차례로 추가하시오(반복문을 사용해도 좋디)")
+# for i in range(1, 10, 1):
+#     list0.append(i)
+# print(list0)
+# print()
+
+# print("Q2. append 함수를 이용해 list0의 0번째에 0을 추가하세시요.")
+# list0.insert(0, 0)
+# print(list0)
+# print()
+
+# print("Q3. del함수를 이용해 list0의 3번째 원소를 삭제 하시오.")
+# del(list0 [3])
+# print(list0)
+# print()
+
+# print("Q4. del함수를 이용해 list0의 5번째 원소를 삭제 하시오.")
+# del(list0 [5])
+# print(list0)
+# print()
+
+# print("Q5. remove 함수를 이용해 list0에서 1을 삭제하시오")
+# list0.remove(1)
+# print(list0)
+# print()
+
+# print("Q6 index 함수를 이용해 list0 에서 5가 몇번째에 있는지 출력하시오.")
+# print(list0.index(5))
+# print()
+
+# print("Q7 index 함수를 이용해 list0에서 6이 존재하는지 확인하시오. 몇번째에 위치하는지 출력하시오")
+# # print(list0.index(6))
+# print()
+
+# print("Q8 len함수를 이용해 list0의 원소의 개수를 출력하시오.")
+# print(len(list0))
+# print()
+
+# print("Q9 print(list0)을 하여 리스트를 출력하시오")
+# print(list0)
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# in
+# in은 리스트에 해당 값이 있는지 ture, false로 알려줌, if에 주로 사용
+# 찾을값 in 리스트
+# 위 형식으로 사용함
+
+# numbers = [1, 2, 3, 4, 5]
+# print(2 in numbers)
+# print(8 in numbers)         # 보통 if(8 in numbers) 이렇게 사용을 함
